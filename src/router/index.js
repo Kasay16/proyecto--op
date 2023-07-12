@@ -24,6 +24,11 @@ const routes = [
         path: "options",
         name: "optionsLaboratory",
         component: () => import('@/views/OptionsLaboratory.vue')
+      },
+      {
+        path: "composition",
+        name: "compositionLaboratory",
+        component: () => import('@/views/CompositionLaboratory.vue')
       }
     ]
   }
