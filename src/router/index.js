@@ -16,6 +16,17 @@ const routes = [
       },
     ],
   },
+  {
+    path: "/laboratory",
+    component: () => import('@/layouts/default/Default.vue'),
+    children:[
+      {
+        path: "options",
+        name: "optionsLaboratory",
+        component: () => import('@/views/OptionsLaboratory.vue')
+      }
+    ]
+  }
 ]
 
 const router = createRouter({
