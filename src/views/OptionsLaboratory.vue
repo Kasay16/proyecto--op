@@ -25,7 +25,6 @@
                   <v-text-field
                     v-model="numberOne"
                     type="number"
-                    :rules="rules"
                   ></v-text-field>
                 </v-sheet>
               </v-col>
@@ -35,9 +34,8 @@
                 <v-sheet>
                   <h3 class="text-primary">Numero dos</h3>
                   <v-text-field
-                    v-model="numberTwo"
+                  v-model="numberTwo"
                     type="number"
-                    :rules="rules"
                   ></v-text-field>
                 </v-sheet>
               </v-col>
@@ -82,10 +80,10 @@
       <v-col>
         <v-sheet class="pa-2 ma-2">
           <v-row class="mb-6" justify="center">
-            <v-text-field type="number" :rules="rules"></v-text-field>
+            <v-text-field type="number"></v-text-field>
           </v-row>
           <v-row class="mb-6" justify="center">
-            <v-text-field type="number" :rules="rules"></v-text-field>
+            <v-text-field type="number"></v-text-field>
           </v-row>
         </v-sheet>
       </v-col>
